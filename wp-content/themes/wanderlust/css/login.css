@@ -1,0 +1,232 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : 8/06/2014, 03:09:38 PM
+    Author     : marvinsoto
+*/
+/******************************MODAL REGISTRO******************************/
+/**************************************************************************/
+.btnLogin{
+    color: #000;
+    display: block;
+    font-family: 'Franklin Gothic LT';
+    font-size: 13px;
+    position: absolute;
+    right: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    top: 20px;
+}
+#contenedorModalLogin{
+    background: #fff;
+    height: 400px;
+    margin: 0px;
+    padding: 0px;
+    width: 400px;
+}
+#modalLogin{
+    /*background: url(../media/imagenes/patron.png);*/
+    display: none;
+    height: 400px;
+}
+#modalLogin h1{
+    color: #702f95;
+    display: block;
+    font-family: 'Claire Hand';
+    font-size: 38px;
+    margin: 0px;
+    padding: 30px 10px 20px 50px;
+}
+#loginWanderlust{
+    background: #fff;
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+}
+#loginWanderlust label{
+    color: #000;
+    display: block;
+    font-family: 'Franklin Gothic LT';
+    font-size: 13px;
+    text-align: left;
+    text-transform: uppercase;
+}
+#loginWanderlust input[type="text"], #loginWanderlust input[type="password"]{
+    border: none;
+    border-bottom: 1px #000 solid;
+    color: #000;
+    display: block;
+    font-family: 'Franklin Gothic LT';
+    font-size: 13px;
+    height: 30px;
+    margin-bottom: 30px;
+    outline: none;
+    padding: 0px 25px 0px 25px;
+    width: 250px;
+}
+#loginWanderlust input[type="password"]{
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+#loginWanderlust input[type="submit"]{
+    border: none;
+    background: #702f95;
+    color: #fff;
+    font-family: 'Claire Hand';
+    font-size: 18px;
+    padding: 10px;
+}
+#loginWanderlust a.crearUsuario, a.recuperar{
+    color: #000;
+    display: block;
+    font-family: 'Franklin Gothic LT';
+    font-size: 13px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+/******************************MODAL REGISTRO******************************/
+/**************************************************************************/
+#contenedorModalRegistro{
+    background: #fff;
+    height: 500px;
+    margin: 0px;
+    padding: 0px;
+    width: 400px;
+}
+#modalRegistro{
+    /*background: url(../media/imagenes/patron.png);*/
+    display: none;
+    height: 400px;
+}
+#modalRegistro h1{
+    color: #702f95;
+    display: block;
+    font-family: 'Claire Hand';
+    font-size: 38px;
+    margin: 0px;
+    padding: 30px 10px 20px 50px;
+}
+#registroWanderlust{
+    background: #fff;
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+}
+#registroWanderlust label{
+    color: #000;
+    display: block;
+    font-family: 'Franklin Gothic LT';
+    font-size: 13px;
+    text-align: left;
+    text-transform: uppercase;
+}
+#registroWanderlust input[type="text"], #registroWanderlust input[type="password"]{
+    border: none;
+    border-bottom: 1px #000 solid;
+    color: #000;
+    display: block;
+    font-family: 'Franklin Gothic LT';
+    font-size: 13px;
+    height: 30px;
+    margin-bottom: 30px;
+    outline: none;
+    padding: 0px 25px 0px 25px;
+    width: 250px;
+}
+#registroWanderlust input[type="password"]{
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+#registroWanderlust input[type="submit"]{
+    border: none;
+    background: #702f95;
+    color: #fff;
+    font-family: 'Claire Hand';
+    font-size: 18px;
+    padding: 10px;
+}
+#registroWanderlust a.crearUsuario, a.recuperar{
+    color: #000;
+    display: block;
+    font-family: 'Franklin Gothic LT';
+    font-size: 13px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+/******************************MODAL RECUPERAR CONTRASEÑA******************************/
+/**************************************************************************************/
+#contenedorModalRecuperar{
+    background: #fff;
+    height: 300px;
+    margin: 0px;
+    padding: 0px;
+    width: 400px;
+}
+#modalRecuperar{
+    /*background: url(../media/imagenes/patron.png);*/
+    display: none;
+    height: 400px;
+}
+#modalRecuperar h1{
+    color: #702f95;
+    display: block;
+    font-family: 'Claire Hand';
+    font-size: 38px;
+    margin: 0px;
+    padding: 30px 10px 20px 50px;
+}
+#recuperarPassword{
+    background: #fff;
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+}
+#recuperarPassword label{
+    color: #000;
+    display: block;
+    font-family: 'Franklin Gothic LT';
+    font-size: 13px;
+    text-align: left;
+    text-transform: uppercase;
+}
+#recuperarPassword input[type="text"], #recuperarPassword input[type="password"]{
+    border: none;
+    border-bottom: 1px #000 solid;
+    color: #000;
+    display: block;
+    font-family: 'Franklin Gothic LT';
+    font-size: 13px;
+    height: 30px;
+    margin-bottom: 30px;
+    outline: none;
+    padding: 0px 25px 0px 25px;
+    width: 250px;
+}
+#recuperarPassword input[type="password"]{
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+#recuperarPassword input[type="submit"]{
+    border: none;
+    background: #702f95;
+    color: #fff;
+    font-family: 'Claire Hand';
+    font-size: 18px;
+    padding: 10px;
+}
+
+
+.btnLogOut{
+  color: #000;
+  display: block;
+  font-family: 'Franklin Gothic LT';
+  font-size: 13px;
+  position: absolute;
+  right: 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+  top: 20px;
+}

@@ -1,0 +1,301 @@
+/* 
+    Document   : perfil.css
+    Created on : Oct 2, 2013, 4:36:11 PM
+    Author     : practicas
+    Description:
+        Purpose of the stylesheet follows.
+*/
+@import url(http://fonts.googleapis.com/css?family=Boogaloo);
+@import url(http://fonts.googleapis.com/css?family=Arvo:700);
+@import url(http://fonts.googleapis.com/css?family=PT+Sans);
+root { 
+    display: block;
+}
+@font-face
+{
+    font-family: 'minimal';
+    src: url('../resources/fuentes/minimal.otf');
+}
+@font-face
+{
+    font-family: Mistral;
+    src: url(../resources/fuentes/Mistral.TTF);
+}
+@font-face
+{
+    font-family: B;
+
+
+    src: url(DenneShuffleEuroHollow.ttf);
+    /*src: url(lazy_sunday_shadow.ttf);*/
+}
+
+root { 
+    display: block;
+}
+body{
+    background-image: url('../resources/image/Perfil/1.png');
+    margin: 0px;
+}
+.menuOut{
+    width:100%;
+    height: 66px;
+    background-image: url('../resources/image/Perfil/headerFondo.png');
+    min-width:1024px;
+}
+#logo{
+    position: absolute;
+    margin:0px 0px 0px 10px;
+    width: 182px;
+    height: 118px;
+    background-image: url('../resources/image/Perfil/logo.png');
+    background-repeat: no-repeat;
+    background-position-y: 93%;
+    z-index: 2;
+}
+#menu{
+    padding: 10px;
+    right: 0;
+    width: 700px;
+    font-family: minimal;
+    display: inline-block;
+    position: absolute;
+}
+#menu ul{
+    display: inline-block;
+    list-style: none;
+    margin: 0 10px 0 10px;
+    padding: 0;
+    float: right;
+    position: relative;
+}
+#menu ul li{
+
+    float:left;
+    font-size: 30px;
+    margin-right:10px;
+    text-align:center;  
+}
+
+#menu ul li a{
+    color:#fff;
+    display:block;
+    padding:10px;
+    text-decoration:none;
+
+}
+#wrapper{
+    position: absolute;
+    margin: auto;
+    top: 0; left: 0; bottom: 0; right: 0;
+    width: 1024px;
+    height: auto;
+    min-width:1024px;
+}
+#pulpoFooter{
+    position: relative;
+    margin: 0px 0px 0px 0px;
+    z-index: 2;
+    margin-top: 64px;
+}
+#bg{
+    position: absolute;
+    width: 100%;
+    height: 968px;
+    background-color: #000;
+    opacity: 0.8;
+    margin-top: 0px;
+    z-index: -2;
+    min-width: 1024px;
+    box-shadow: 0px 10px 20px #000;
+}
+#footerNoticias{
+    position: absolute;
+    width: 100%;
+    height: 293px;
+    background-color: #434343;
+    opacity: 0.9;
+    margin-top: 968px;
+    min-width: 1024px;
+    z-index: -3;
+}
+
+.contenedorDetalles{
+    height: 800px;
+    width: 270px;
+    position: relative;
+    float: left;
+    margin-top: 170px;
+    margin-left: 65px;
+    background: #999;
+    background: rgba(153, 153, 153, 0.3);
+}
+.contenedorDetalles p{
+    font-family: Minimal;
+    color: white;
+    height: 35px;
+    font-size: 30px;
+    text-align: center;
+    margin: 5px 0px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    width: 100%;
+}
+.contenedorVideos{
+    height: 800px;
+    width: 600px;
+    position: relative;
+    float: left;
+    margin-top: 170px;
+    margin-left: 35px;
+}
+.conejo{
+    position: absolute;
+    background-image: url(../resources/image/Perfil/conejo.png);
+    background-size: 90%;
+    background-repeat: no-repeat;
+    width: 760px;
+    height: 1045px;
+    top: 80px;
+    right: 0;
+    z-index: -1;
+    opacity: 0.7;
+}
+.photo{
+    position: relative;
+    width: 230px;
+    float: left;
+    height: 230px;
+    background: #191919;
+    margin: 20px 20px 0px 20px;
+
+}
+.photo img{
+    width: 220px;
+    height: 220px;
+    margin-left: 5px;
+    margin-top: 5px;
+} 
+.info{
+    position: relative;
+    width: 230px;
+    float: left;
+    height: 130px;
+    margin: 0px 20px;   
+}
+
+.stats{
+    position: relative;
+    width: 230px;
+    float: left;
+    height: 400px;
+    margin: 0px 20px;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.star{
+    background: url('../resources/image/Perfil/star.png') no-repeat;
+    width: 114px;
+    height: 111px;
+    margin-left: 58px;
+    text-align: center;
+    position: relative;
+    margin-bottom: 10px;
+    float: left;
+}
+.star label{
+    font-family: B;
+    position: relative;
+    top: 42px;
+    font-size: 39px;
+    text-align: center;
+}
+.titulo{
+    width: 525px;
+    height: 135px;
+    background: url(../resources/image/Perfil/titulo.png);
+    text-align: center;
+    position: relative;
+    float: left;
+}
+
+.titulo label{
+    font-family: B;
+    position: relative;
+    top: 40px;
+    font-size: 45px;
+    text-align: center;
+}
+
+#videos{
+    list-style: none;
+    position: relative;
+    padding-top: 20px;
+    height: 150px;
+    padding-left: 0;
+    width: 600px;
+    float: left;
+}
+#videos li{
+    position: relative;
+    margin: 15px;
+    float: left;
+    width: 170px;
+    height: 150px;
+}
+#videos li img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+#videos li span{
+    display: block;
+    position: absolute;
+    top: 0px;
+    width: 170px;
+    height: 0px;
+    overflow: hidden;
+    opacity: 0;
+    text-align: center;
+    text-shadow: 1px 1px 1px #303857;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+#videos li:hover span{
+    height: 150px;
+    background: rgba(0, 0, 0, 0.6);
+    opacity: 1;
+}
+.info2{
+    color: #fff;
+    height: 150px;
+    width: 170px;
+    background: transparent;
+    position: relative;
+    float: left;
+    padding-top: 25px;
+}
+
+.tituloVideo{
+    font-size: 14px;
+    font-family: 'Arvo', serif;
+    height: 17px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    width: 100%;
+}
+.descripcion{
+    font-size: 11px;
+    font-family: 'PT Sans', sans-serif;
+    height: 40px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    width: 100%;
+}
+

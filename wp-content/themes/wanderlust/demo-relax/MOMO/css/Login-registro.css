@@ -1,0 +1,358 @@
+/* 
+    Document   : Login-registro
+    Created on : Oct 1, 2013, 2:38:41 PM
+    Author     : practicas
+    Description:
+        Purpose of the stylesheet follows.
+*/
+@font-face
+{
+    font-family: myFirstFont;
+    src: url(../resources/fuentes/minimal.otf);
+}
+@font-face
+{
+    font-family: Dawn;
+    src: url(../resources/fuentes/DawningofaNewDay.ttf);
+}
+@font-face
+{
+    font-family: Mistral;
+    src: url(../resources/fuentes/Mistral.TTF);
+}
+@media screen and (max-width: 1024px){
+    #perro {
+        margin-left: -139px !important;
+    }
+    #formulario{
+        margin: 321px 0px 0px 435px !important;
+    }
+    #contenedorRegistro{
+        margin: 210px 0px 0px 425px !important;
+    }
+    #flecha{
+        display: none;
+    }
+}
+root { 
+    display: block;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: #383838;
+}
+#headerLR{
+    width: 100%;
+    margin: 0 auto;
+    height: 65px;
+    background: #000;
+    background-image: url('../resources/image/PaginaPrincipal/headerFondo.png');
+    background-repeat: repeat-x;
+    min-width: 1024px;
+}
+#wrapper{
+    position: absolute;
+    margin: auto;
+    top: 0; left: 0; bottom: 0; right: 0;
+    width: 1024px;
+    height: auto;
+    min-width:1024px;
+}
+#header{
+    position: relative;
+    width: 100%;
+    height: 65px;
+}
+#logo{
+    position: absolute;
+    margin:0px 0px 0px 10px;
+    width: 182px;
+    height: 118px;
+    background-image: url('../resources/image/PaginaPrincipal/logo.png');
+    background-repeat: no-repeat;
+    background-position-y: 93%;
+    z-index: 2;
+}
+#menu{
+    margin-right: 10%;
+    float: right;
+    overflow:hidden;
+    padding:10px;
+    width:80%px;
+
+    font-family: myFirstFont;
+}   
+#menu ul{
+    list-style:none;
+    margin:0 10px 0 10px;
+    padding:0;
+}
+#menu ul li{
+
+    float:left;
+    font-size: 30px;
+    margin-right:10px;
+    text-align:center;  
+}
+
+#menu ul li a{
+    color:#fff;
+    display:block;
+    padding:10px;
+    text-decoration:none;
+
+}
+#perro{
+    position: absolute;
+    width: 600px;
+    height: 770px;
+    margin: 85px 0px 0px 0px;
+    z-index: 2;
+}
+#centro{
+    position:relative;
+    width: 100%;
+    height: 730px;
+    background-color: black;
+    min-width: 1024px;
+}
+#fondoCentro{
+    float: right;
+    height: 730px;
+}
+#footerLR{
+    width: 100%;
+    height: 300px;
+    background-color: #383838;
+    min-width: 1024px;
+}
+#formulario{
+    position: relative;
+    background-color: #adacac;
+    width: 500px;
+    height: 210px;
+    margin: 321px 0px 0px 600px;
+    z-index: 1;
+}
+#formulario .login{
+    padding: 10px;
+    width: 100%;
+    font-family: myFirstFont;
+    font-size: 26px;
+    height: 130px;
+    padding-top: 15px;
+    margin-top: 10px;
+    margin-left: 35px;
+}
+.loginHeader{
+    width: 100%;
+    height: 52px;
+}
+.headerForm{
+    height: 55px;
+    width: 100%;
+    background-image: url('../resources/image/Login-Registro/headerlogin.png');
+    background-repeat: repeat-x;
+}
+.headerForm label{
+    font-family: Dawn;
+    position: absolute;
+    margin: -5px 10px;
+    font-size: 30px;
+    text-shadow: 1px 1px 3px #000;
+}
+#formulario .login label{
+    width: 100px;
+    text-align: right;
+    float: left;
+}
+#formulario .login input[type=text], .login [type=password]{
+    margin-top: 0px !important;
+    margin-left: 10px !important;
+    min-height: 20px !important;
+    float: left;
+    min-width: 250px !important;
+    border: 0 !important;
+    background: #d9d8d8;
+}
+.letsgologin{
+    background: url('../resources/image/Login-Registro/letsgo.png') no-repeat center center;
+    width: 162px;
+    height: 79px;
+    border: none;
+    font-family: Mistral;
+    font-size: 33px;
+    padding-bottom: 4px;
+}
+.letsgologin:hover{
+    color: #409bae;
+    cursor: pointer;
+    text-shadow: 1px 1px 1px #fff;
+}
+.new {
+    background-image: url('../resources/image/Login-Registro/new.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    width: 199px;
+    margin-left: -88px;
+    height: 97px;
+    border: none;
+    font-family: Mistral;
+    font-size: 33px;
+    padding-left: 100px;
+    padding-top: 3px;
+}
+.new:hover{
+    color: #409bae;
+    cursor: pointer;
+    text-shadow: 1px 1px 1px #fff;
+}
+#contenedorRegistro{
+    position: relative;
+    width: 500px;
+    height: 465px;
+    background-color: #aeacad;
+    margin: 210px 0px 0px 570px;
+    z-index: 2;
+}
+#headerRegistro{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background-image: url('../resources/image/Login-Registro/headerRegistro.png');
+    box-shadow: 3px 5px 16px #000;
+}
+#headerRegistro label{
+    position: relative;
+    margin: 0px 0px 0px 10px;
+    font-family: Dawn;
+    font-size: 30px;
+    color: black;
+    text-shadow: 0px 3px 8px;
+    font-weight: bold;
+}
+#formularioRegistro{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    display: block;
+    margin: 10px 0px 0px 0px;
+}
+#contenedorRegistro #formularioRegistro label{
+    float: left;
+    margin-top: 4px;
+    padding-top: 10px;
+    margin-left: 45px;
+    width: 145px;
+    text-align: right;
+    font-family: myFirstFont;
+    font-size: 21px;
+    color: black;
+    font-weight: bold;
+}
+#formularioRegistro input[type="text"],[type="password"],[type="date"],[type="email"]{
+    margin-top: 15px;
+    margin-left: 20px;
+    min-height: 20px;
+    width: 190px;
+    min-width: 190px;
+    border: none;
+    background-color: #dad8d9;
+}
+#formularioRegistro input[type="radio"]{
+    margin-top: 18px;
+    margin-left: 60px;
+}
+.register{
+    background: url('../resources/image/Login-Registro/letsgo.png') no-repeat center center;
+    width: 162px;
+    height: 79px;
+    border: none;
+    margin-left: 35%;
+    margin-top: 23px;
+    font-family: Mistral;
+    font-size: 33px;
+    padding-bottom: 4px;
+}
+.register:hover{
+    color: #da91ad;
+    cursor: pointer;
+    text-shadow: 1px 1px 1px #fff;
+}
+.back {
+    background-image: url('../resources/image/Login-Registro/back.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    width: 202px;
+    margin-left: -288px;
+    height: 96px;
+    margin-top: 100px;
+    border: none;
+    font-family: Mistral;
+    font-size: 31px;
+    padding-left: 25px;
+    padding-top: 0px;
+}
+.back:hover{
+    color: #da91ad;
+    cursor: pointer;
+    text-shadow: 1px 1px 1px #fff;
+}
+#flecha{
+    position: relative;
+    height: 300px;
+    float: right;
+    width: 10%;
+    background-repeat: repeat-x;
+    background-image: url('../resources/image/Login-Registro/flecha.png');
+}
+#fb{
+    height: 300px;
+    position: relative;
+    float: right;
+    width: 430px;
+    background-image: url('../resources/image/Login-Registro/flchLogin.png');
+    background-repeat: no-repeat;
+}
+#fbRegister{
+    height: 300px;
+    position: relative;
+    float: right;
+    width: 490px;
+    margin-top: 22px;
+    background-image: url('../resources/image/Login-Registro/flch.png');
+    background-repeat: no-repeat;
+}
+#feis{
+    background-image: url('../resources/image/Login-Registro/facebook.png');
+    background-repeat: no-repeat;
+    margin: 100px;
+    width: 328px;
+    height: 82px;
+    -webkit-transition: background-image 0.2s ease-in-out;
+    -moz-transition: background-image 0.2s ease-in-out;
+    -ms-transition: background-image 0.2s ease-in-out;
+    -o-transition: background-image 0.2s ease-in-out;
+    transition: background-image 0.2s ease-in-out;
+}
+#feis:hover{
+    background-image: url('../resources/image/Login-Registro/facebookhover.png');
+    cursor: pointer;
+}
+#registerfeis{
+    background-image: url('../resources/image/Login-Registro/register.png');
+    background-repeat: no-repeat;
+    margin: 85px 0px 0px 105px;
+    width: 374px;
+    height: 82px;
+    -webkit-transition: background-image 0.2s ease-in-out;
+    -moz-transition: background-image 0.2s ease-in-out;
+    -ms-transition: background-image 0.2s ease-in-out;
+    -o-transition: background-image 0.2s ease-in-out;
+    transition: background-image 0.2s ease-in-out;
+}
+#registerfeis:hover{
+    background-image: url('../resources/image/Login-Registro/registerhover.png');
+    cursor: pointer;
+}

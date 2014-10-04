@@ -1,0 +1,105 @@
+/* 
+    Document   : contactanos
+    Created on : Jun 9, 2013, 5:35:59 PM
+    Author     : Owner
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+#creaTusContenedor{
+    width: 960px;
+    height: 44px;
+    /*background: #000;*/
+    margin-top: 65px;
+    background: url('../media/imagenes/contacto/fondoContendorPequeno.jpg') repeat;
+}
+#creaContenedorPequeno{
+    width: 269px;
+    height: 31px;
+    background: url('../media/imagenes/contacto/fondoContendorPequeno.jpg') no-repeat;
+    padding-top: 13px;
+    padding-left: 15px;
+}
+#creaContenedorPequeno label{
+    font-family: 'Franklin Gothic Book';
+    font-size: 15px;
+    color: #fff;
+}
+#decoracionPunteada{
+     width: 960px;
+     height: 5px;
+     border-bottom: 2px dotted #000;
+}
+#contenedorTipos{
+    width: 960px;
+    padding-bottom: 46px;
+    padding-top: 37px;
+    background: url('../media/imagenes/elegirGenero/patronContenedorSeleccion.jpg') repeat;
+}
+#contenedor1{
+    width: 338px;
+    height: 216px;
+    float: left;
+    position: relative;
+    margin-top: 12px;
+}
+#contenedor1 p{
+    font-family: 'Claire Hand';
+    font-size: 18px;
+    color: #1b76bf;
+    margin-left: 46px;
+    margin-bottom: 28px;
+}
+#contenedor2{
+    width: 252px;
+    height: 216px;
+    float: left;
+    position: relative;
+}
+.campoTexto{
+    width: 242px;
+    height: 22px;
+    border:none;
+    padding-left: 7px;
+    margin-bottom: 23px;
+    border: 1px solid #ededed;
+}
+#contenedor3{
+    width: 274px;
+    height: 208px;
+    float: right;
+    position: relative;
+    margin-right: 16px;
+}
+#campoMensaje{
+    width: 252px;
+    height: 150px;
+    resize: none;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    float: left;
+    position: relative;
+    border: 1px solid #ededed;
+}
+#enviarBotonExterior{
+    width: 274px;
+    display: block;
+    height: 48px;
+    float: left;
+    position: relative;
+    background: url('../media/imagenes/home/enviarBoton.png') no-repeat;
+}
+#enviaCorreo{
+    width: 274px;
+    display: block;
+    height: 48px;
+    float: left;
+    position: relative;
+    background: url('../media/imagenes/home/enviarBoton.png') no-repeat;
+    border: none;
+    cursor: pointer;
+}

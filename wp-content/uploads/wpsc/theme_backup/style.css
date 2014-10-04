@@ -1,0 +1,304 @@
+/*
+Theme Name: Wanderlust
+Theme URI: http://wanderlust.com.gt/
+Description: Tema desarrollado por cindy Zamora para Wanderlust
+Author: Cindy Zamora
+Version: 1.0
+Tags: cindy
+*/
+
+
+/*FONTS*/
+@font-face {
+    font-family: 'Franklin Gothic LT';
+    src: url('media/fonts/itcfranklingothicltbookcondensed.eot');
+    src: url('media/fonts/itcfranklingothicltbookcondensed.eot?#iefix') format('embedded-opentype'),
+         url('media/fonts/itcfranklingothicltbookcondensed.woff') format('woff'),
+         url('media/fonts/itcfranklingothicltbookcondensed.ttf') format('truetype'),
+         url('media/fonts/itcfranklingothicltbookcondensed.svg#franklingothicltbookcnd') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Franklin Gothic Book';
+    src: url('media/fonts/frabk.eot');
+    src: url('media/fonts/frabk.eot?#iefix') format('embedded-opentype'),
+         url('media/fonts/frabk.woff') format('woff'),
+         url('media/fonts/frabk.ttf') format('truetype'),
+         url('media/fonts/frabk.svg#franklingothicbook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Claire Hand';
+    src: url('media/fonts/clairehandregular.eot');
+    src: url('media/fonts/clairehandregular.eot?#iefix') format('embedded-opentype'),
+         url('media/fonts/clairehandregular.woff') format('woff'),
+         url('media/fonts/clairehandregular.ttf') format('truetype'),
+         url('media/fonts/clairehandregular.svg#clairehandregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*GENERAL*/
+body {
+    background: url('media/imagenes/generales/patron.png') repeat;
+}
+
+.clear{
+    clear:both;
+    display: block;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    line-height: 0;
+    font-size: 0px;
+}
+
+/*HEADER*/
+#header {
+    width:  100%;
+    height: 182px;
+    border-top: solid #000 8px;
+    position: relative;
+}
+#headerContent{
+    width: 900px;
+    height: 182px;
+    background: #fff;
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    overflow: hidden;
+    position: relative;
+}
+#logo{
+    width: 162px;
+    height: 145px;
+    position: relative;
+    float: left;
+    margin-top: 15px;
+    overflow: hidden;
+}
+#menu{
+    width: 680px;
+    height: 45px;
+    position: relative;
+    float: right;
+    margin-top: 45px;
+    background: url('media/imagenes/header/menu-patron.png') repeat-x center bottom;
+}
+#menu ul{
+    float: left;
+    position: relative;
+    display:inline;
+    list-style-type: none;
+}
+#menu #links{
+    height: 30px;
+    width: 492px;
+    margin-top: 15px;
+    float: left;
+    position: relative;
+    display:inline;
+    list-style-type: none;
+}
+#links .paginas{
+    width: auto;
+    height: 30px;
+    float: left;
+    position: relative;
+    display:inline;
+    margin-right:70px;
+}
+
+#links .paginas:hover{
+    background: url('media/imagenes/header/menu-activo.png') repeat-x bottom;
+}
+.paginas.top:hover{
+    opacity: 0;
+}
+#links .menuActivo{
+    background: url('media/imagenes/header/menu-activo.png') repeat-x bottom;
+}
+.menuActivo.top{
+    opacity: 0;
+}
+.paginas a{
+    width: auto;
+    height: 30px;
+    color: black;
+    font-family: 'Franklin Gothic LT';
+    font-size: 13px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bolder;
+    padding-right: 5px;
+    display: block;
+    display: block;
+    float: left;
+    position: relative;
+}
+#redesSocialesHeader{
+    height: 28px;
+    float: right;
+    position: relative;
+    margin-top: 8px;
+}
+.iconoRed{
+    width: 28px;
+    height: 28px;
+    float: right;
+    position: relative;
+    margin-left: 12px;
+}
+/*BODY*/
+#wrapper {
+    width: 100%;
+    height: auto;
+}
+/*CONTENT*/
+#content {
+    width: 960px;
+    margin: 0 auto;
+/*    padding-left: 30px;
+    padding-right: 30px;*/
+    background: #fff;
+    padding-top: 20px;
+}
+#content #banner{
+    width: 873px;
+    height: 436px;
+    border: solid #e8e8e8 1px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+#banner #prev{
+    width: 28px;
+    height: 72px;
+    position: absolute;
+    margin-top: 170px;
+    background: url('media/imagenes/elegirGenero/prev.png') no-repeat;
+    cursor: pointer;
+    z-index: 9999;
+}
+#banner #next{
+    width: 28px;
+    height: 72px;
+    position: absolute;
+    margin-top: 170px;
+    background: url('media/imagenes/elegirGenero/next.png') no-repeat;
+    margin-left: 845px;
+    cursor: pointer;
+    z-index: 9999;
+}
+#banner #sombra{
+    width: 875px;
+    height: 44px;
+    position: absolute;
+    background: url('media/imagenes/elegirGenero/sombra.jpg') no-repeat;
+    margin-top: 436px;
+}
+#banner #slideshow{
+    width: 873px;
+    height: 436px;
+    overflow: hidden;
+}
+/*FOOTER*/
+#footer {
+    width: 100%;
+    height:231px;
+    background: #000;
+}
+#footerContent{
+    width: 960px;
+    background: #000;
+    margin: 0 auto;
+    padding-top: 23px;
+}
+#contenedorConBorde{
+    width: 960px;
+    height: 134px;
+    border-bottom: dotted 1px #fff;
+}
+#contenedorSiguenos{
+    width: 167px;
+    height: 95px;
+    float: left;
+    position: relative;
+    margin-left: 310px;
+    border-right: dotted 1px #fff;
+    padding-top: 20px;
+}
+#contenedorSiguenos label{
+    font-family: 'Franklin Gothic LT';
+    font-size: 13px;
+    color: #fff;
+    border-bottom: solid 1px #fff;
+    width: 154px;
+    display: inline-block;
+    padding-bottom: 3px;
+    margin-bottom: 16px;
+}
+.redFooter{
+    width: auto;
+    height: auto;
+    float: left;
+    position: relative;
+    margin-right: 9px;
+}
+#contenedorSuscribete{
+    width: 223px;
+    float: right;
+    position: relative;
+    margin-right: 246px;
+    padding-top: 20px;
+    padding-left: 13px;
+}
+#contenedorSuscribete label{
+    font-family: 'Franklin Gothic LT';
+    font-size: 13px;
+    color: #fff;
+    border-bottom: solid 1px #fff;
+    width: 156px;
+    display: inline-block;
+    padding-bottom: 3px;
+    margin-bottom: 16px;
+}
+#contenedorSuscribete p{
+     font-family: 'Franklin Gothic LT';
+     font-size: 12px;
+     color: #fff;
+}
+#campoEnviar{
+    width: 146px;
+    height: 19px;
+    background: #e3e3e3;
+    border: none;
+    margin-top: 12px;
+    float: left;
+    position: relative;
+    padding-left: 5px;
+    font-family: 'Franklin Gothic LT';
+    font-size: 14px;
+}
+#enviarBoton{
+    width: 53px;
+    height: 21px;
+    float:left;
+    position: relative;
+    margin-top: 12px;
+    background: url('media/imagenes/footer/enviarBoton.jpg') no-repeat;
+}
+#copyright{
+    font-family: 'Franklin Gothic Book';
+    margin: 0 auto;
+    color:#fff;
+    display: block;
+    text-align: center;
+    margin-top: 13px;
+}
+
+/*TEXT STYLES*/
+/*HEADER*/

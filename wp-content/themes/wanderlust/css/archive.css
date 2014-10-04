@@ -1,0 +1,84 @@
+#contentArchive{
+	width: 960px;
+	margin: 0 auto;
+	background: #fff;
+        padding-bottom: 30px;
+        background: url('../media/imagenes/elegirGenero/patronContenedorSeleccion.jpg') repeat;
+}
+.title-animated h1{
+    display: block;
+    color: #fff;
+    font-family: 'Franklin Gothic Book';
+    font-size: 15px;
+    text-align: left;
+    margin-bottom: 0px;
+    background: url('../media/imagenes/home/fondoContenedorPequeno.jpg') repeat;
+    padding: 10px 10px 10px 20px;
+}
+.colum3{
+    background: #fff;
+    width: 31.4%;
+    margin: 10px 10px;
+    margin-bottom: 20px;
+    display: block;
+    float: left;
+}
+.colum3 a{
+    text-decoration: none;
+}
+.colum3:nth-child(3n){
+    margin-right: 0;
+}
+.colum3:hover{
+    background: rgba(0,255,127, 1);
+    //background: #4CB1CA;
+-webkit-transition: all 0.4s ease;
+-moz-transition: all 0.4s ease;
+-o-transition: all 0.4s ease;
+transition: all 0.4s ease;
+color: #fff;
+
+-webkit-transform: scale(.9);
+-moz-transform: scale(.9);
+-ms-transform: scale(.9);
+-o-transform: scale(.9);
+transform: scale(.9);
+-webkit-transition: all 400ms cubic-bezier(0.250, 0.460, 0.450, 0.940);
+-moz-transition: all 400ms cubic-bezier(0.250, 0.460, 0.450, 0.940);
+-ms-transition: all 400ms cubic-bezier(0.250, 0.460, 0.450, 0.940);
+-o-transition: all 400ms cubic-bezier(0.250, 0.460, 0.450, 0.940);
+transition: all 400ms cubic-bezier(0.250, 0.460, 0.450, 0.940);
+}
+.inner_content{
+    padding: 15px;
+    position: relative;
+}
+.product_image{
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    display: block;
+    height: 240px;
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.product_image img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.name{
+    padding-top: 10px;
+}
+.name p{
+    color: #000;
+    display: block;
+    padding: 10px 10px 30px 10px;
+    font-family: 'Arial',sans-serif;
+    font-size: 1.6em;
+    text-align: center;
+    text-decoration: none;
+}
+.colum3:hover .name p{
+    color: #fff;
+}

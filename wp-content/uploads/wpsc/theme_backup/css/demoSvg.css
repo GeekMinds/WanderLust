@@ -1,0 +1,30 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 10/07/2014, 07:06:18 PM
+    Author     : marvinsoto
+*/
+#contenedorDemo{
+    background: #fff;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    width: 960px;
+}
+#contenedorDemo h1{
+   display: block;
+   font-family: 'Claire Hand';
+   font-size: 41px;
+   float: left;
+   margin-top: 62px;
+   margin-bottom: 20px;
+   margin-left: 150px;
+}
+#contenedorDemo .logoEleccion{
+    display: block;
+    float: right;
+    margin-right: 150px;
+}

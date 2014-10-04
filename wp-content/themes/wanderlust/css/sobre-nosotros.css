@@ -1,0 +1,99 @@
+/* 
+    Document   : sobre-nosotros
+    Created on : Jun 9, 2013, 5:35:48 PM
+    Author     : Owner
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+#creaTusContenedor{
+    width: 960px;
+    height: 44px;
+    /*background: #000;*/
+    margin-top: 65px;
+    background: url('../media/imagenes/home/fondoContenedorPequeno.jpg') repeat;
+}
+#creaContenedorPequeno{
+    width: 269px;
+    height: 31px;
+    /*background: url('../media/imagenes/home/fondoContenedorPequeno.jpg') no-repeat;*/
+    padding-top: 13px;
+    padding-left: 15px;
+}
+#creaContenedorPequeno label{
+    font-family: 'Franklin Gothic Book';
+    font-size: 15px;
+    color: #fff;
+}
+#decoracionPunteada{
+     width: 960px;
+     height: 5px;
+     border-bottom: 2px dotted #000;
+}
+#contenedorTipos{
+    width: 960px;
+    padding-top: 37px;
+    background: url('../media/imagenes/elegirGenero/patronContenedorSeleccion.jpg') repeat;
+}
+#columnaIzquierda{
+    width: 438px;
+    float: left;
+    position: relative;
+    margin-left: 17px;
+    padding-bottom: 65px;
+}
+#columnaIzquierda label{
+    font-family: 'Claire Hand';
+    font-size: 38px;
+    color: #702f95;
+    text-transform: uppercase;
+    margin-bottom: 27px;
+    display: block;
+}
+#columnaIzquierda h1{
+    font-family: 'Claire Hand';
+    font-size: 16px;
+    color: #000;
+    line-height: 18px; 
+    margin-bottom: 24px;
+    text-transform: uppercase;
+}
+#columnaIzquierda p{
+    font-family: 'Claire Hand';
+    font-size: 17px;
+    margin-bottom: 25px;
+    color: #000;
+    text-transform: uppercase;
+    line-height: 138%;
+}
+.flecha{
+    width: 13px;
+    height: 12px;
+    float: left;
+    position: relative;
+    background: url('../media/imagenes/sobre/flecha.png') repeat;
+    margin-left: 15px;
+}
+#columnaIzquierda h6{
+    float: left;
+    position: relative;
+    font-family: 'Claire Hand';
+    font-size: 17px;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: normal;
+    margin-left: 8px;
+    display: block;
+}
+#contenedorVideo{
+    width: 445px;
+    height: 271px;
+    float: right;
+    position: relative;
+    margin-top: 110px;
+    
+}

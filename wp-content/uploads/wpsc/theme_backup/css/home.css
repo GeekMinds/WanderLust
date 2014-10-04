@@ -1,0 +1,336 @@
+/* 
+    Document   : home
+    Created on : Jun 9, 2013, 12:14:30 PM
+    Author     : Cindy Zamora
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+#pasosMenuContenedor{
+    width: 960px;
+    height: 44px;
+    margin-top: 65px;
+}
+.pasosMenu{
+    width: 304px;
+    height: 31px;
+    padding-top: 13px;
+    padding-left: 15px;
+    position: relative;
+    float: left;
+    display: block;
+    cursor: pointer;
+}
+.pasosMenu label{
+    font-family: 'Franklin Gothic Book';
+    font-size: 15px;
+    color: #fff;
+}
+.pasosMenu.paso-disabled{
+    opacity: 0.5;
+    pointer-events: none;
+   cursor: default;
+}
+#menu1{
+    background: url('../media/imagenes/elegirGenero/fondoContenedorPequeno.jpg') repeat;
+}
+#menu2{
+    background: url('../media/imagenes/elegirGenero/contenedorCrea.jpg') repeat;
+}
+#menu3{
+    background: url("../media/imagenes/contacto/fondoContendorPequeno.jpg") repeat;
+}
+#decoracionPunteada{
+     width: 960px;
+     height: 5px;
+     border-bottom: 2px dotted #000;
+}
+#contenedorPasos{
+    width: 960px;
+    height: auto;
+    background: url('../media/imagenes/elegirGenero/patronContenedorSeleccion.jpg') repeat;
+}
+.pasos{
+    width: 960px;
+    display: none;
+    min-height: 274px !important;
+}
+#paso1{
+    height: 274px;
+    padding-top: 116px;
+    
+    display: block;
+}
+#paraHombres{
+    width: 235px;
+    height:118px;
+    cursor: pointer;
+    float: left;
+    position: relative;
+    margin-left: 64px;
+}
+#paraMujeres{
+    width: 235px;
+    height: 118px;
+    cursor: pointer;
+    float: left;
+    position: relative;
+    margin-left: 52px;
+}
+#paraNinos{
+    width: 249px;
+    height:118px;
+    cursor: pointer;
+    float: left;
+    position: relative;
+    margin-left: 57px;
+    margin-top: -25px;
+}
+/* ------------ paso 2 --------------*/
+#paso2{
+    height: 274px;
+    width: 880px;
+    padding-top: 40px;
+    padding-top: 40px;
+}
+.estilo-preview{
+    width: 200px;
+    height: 200px;
+    border: 1px solid #414141;
+    position: relative;
+    float: left;
+    margin-left: 15px;
+    -webkit-transition: all 500ms ease-out 1s;
+    -moz-transition: all 500ms ease-out 1s;
+    -o-transition: all 500ms ease-out 1s;
+    transition: all 500ms ease-out 1s;
+}
+.estilo-preview:hover{
+    border: 2px solid #000;
+}
+/* ------------ paso 3 --------------*/
+#paso3{
+    width: 960px;
+}
+#contenedorZapatoGeneral{
+    width: 960px;
+    height: 638px;
+    margin: 0 auto;
+    margin-top: 16px;
+    left: 0;
+}
+#zapatoVistaPrevia{
+    background: #fff;
+    width: 666px;
+    height: 640px;
+    float: left;
+    position: relative;
+}
+#seleccionEstilo{
+    width: 290px;
+    height: 638px;
+    float: right;
+    position: relative;
+    border: 1px solid #bdbdbd;
+    display: block;
+}
+#tusSelecciones{
+    width: 280px;
+    height: auto;
+    padding-top: 9px;
+    padding-left: 8px;
+    overflow: hidden;
+    min-height: 46px;
+}
+#tusSelecciones label{
+    font-family: 'Franklin Gothic LT';
+    font-size: 15px;
+    color: #000;
+    border-bottom: 1px solid #cccccc;
+    width: 100%;
+    display: inline-block;
+    padding-bottom: 6px;
+    margin-bottom: 13px;
+}
+.elecciones{
+    width: 47px;
+    height: 46px;
+    float: left;
+    position: relative;
+    margin-right: 9px;
+    margin-bottom: 16px;
+}
+.tela{
+    width: 47px;
+    height: 46px;
+    float: left;
+    position: relative;
+    margin-right: 5px;
+    margin-bottom: 16px;
+}
+.tela a img:hover{
+    border: 1px solid #bdbdbd;
+}
+#estiloTexturas{
+    width: 280px;
+    height: 23px;
+    border-bottom: dashed #cccccc 1px;
+    border-top: dashed #cccccc 1px;
+    padding-top: 7px;
+    padding-left: 5px;
+}
+#estiloTexturas label{
+    font-family: 'Franklin Gothic LT';
+    font-size: 15px;
+    color: #000;
+}
+.tipo-tela{
+    width: 265px;
+    padding-top: 9px;
+    padding-left: 8px;
+    overflow: hidden;
+}
+.tipo-tela label{
+    font-family: 'Franklin Gothic LT';
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #000;
+    border-bottom: 1px solid #cccccc;
+    width: 100%;
+    display: inline-block;
+    padding-bottom: 6px;
+    margin-bottom: 13px;
+}
+#conScroll{
+    width: 287px;
+    height: 388px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+#guardarBoton{
+    width: 120px;
+    height: 28px;
+    float: left;
+    position: relative;
+    margin-top: 23px;
+    margin-left: 10px;
+    background: url('../media/imagenes/home/guardarBoton.jpg') no-repeat center center;
+    pointer-events: none;
+    cursor: default;
+    opacity: 0.5;
+}
+#limpiarBoton{
+    width: 120px;
+    height: 28px;
+    float: left;
+    position: relative;
+    margin-top: 23px;
+    margin-left: 22px;
+    background: url('../media/imagenes/home/limpiarBoton.jpg') no-repeat center center;
+}
+#fomulario{
+    width: 944px;
+    height: 232px;
+    background: url('../media/imagenes/home/formularioContenedor.jpg') no-repeat;
+    left: 0;
+/*    margin-left: -30px;*/
+    padding-top: 20px;
+    padding-left:16px;
+}
+#contenedor1{
+    width: 364px;
+    height: 216px;
+    float: left;
+    position: relative;
+}
+#tituloFormulario{
+    font-family: 'Franklin Gothic Book';
+    font-size: 38px;
+    color: #fff;
+    border-bottom: dotted 2px #fff;
+    width: 318px;
+    display: inline-block;
+    padding-bottom: 18px;
+    margin-bottom: 25px;
+}
+.cursiva{
+     font-family: 'Franklin Gothic Book';
+     font-style: italic;
+     color: #fff;
+     font-size: 12px;
+     margin-bottom: 21px;
+}
+.normal{
+     font-family: 'Franklin Gothic Book';
+     color: #fff;
+     font-size: 16px;
+     margin-bottom: 21px
+}
+#contenedor2{
+    width: 252px;
+    height: 216px;
+    float: left;
+    position: relative;
+    margin-left: 10px;
+}
+.campoTexto{
+    width: 242px;
+    height: 22px;
+    border:none;
+    padding-left: 7px;
+    margin-bottom: 23px;
+}
+#contenedor3{
+    width: 274px;
+    height: 208px;
+    float: right;
+    position: relative;
+    margin-right: 16px;
+}
+#campoMensaje{
+    width: 254px;
+    height: 150px;
+    resize: none;
+    border: none;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    float: left;
+    position: relative;
+}
+#enviarBotonExterior{
+    width: 274px;
+    display: block;
+    height: 48px;
+    float: left;
+    position: relative;
+    background: url('../media/imagenes/home/enviarBoton.png') no-repeat;
+}
+
+.selector-pieza{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+    background: #0074a2;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    text-decoration: none;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+    color: #F9F9F9;
+}
+.selector-pieza:hover{
+    background: #009cee;
+}
+.selector-pieza.selector-disabled{
+    background: #cccccc;
+    opacity: 0.5;
+}

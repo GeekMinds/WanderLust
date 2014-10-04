@@ -1,0 +1,36 @@
+/* 
+    Document   : demosvg
+    Created on : 11-jul-2014, 1:36:01
+    Author     : Jose Luis
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+.capa{
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    -webkit-transform-origin: initial;
+    -moz-transform-origin: initial;
+    -o-transform-origin: initial;
+    -ms-transform-origin: initial;
+    transform-origin: initial;
+     -webkit-transition: 0.25s ease-in-out;
+    -moz-transition: 0.25s ease-in-out;
+    -o-transition: 0.25s ease-in-out;
+    transition: 0.25s ease-in-out;
+}
+
+.capa:hover{
+    cursor: pointer;
+    -webkit-transform: scale(1.02);
+    -moz-transform: scale(1.02);
+    -o-transform: scale(1.02);
+    -ms-transform: scale(1.02);
+    transform: scale(1.02);
+}
